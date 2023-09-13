@@ -1,0 +1,21 @@
+.countries-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.visited-wrapper {
+  display: flex;
+}
+.img-width {
+  width: 100px;
+  margin: 10px;
+}
+.visited-country-item {
+  display: flex;
+  list-style: none;
+}
+.country-item {
+  padding: 10px;
+  flex-wrap: wrap;
+  display: inline;
+}
